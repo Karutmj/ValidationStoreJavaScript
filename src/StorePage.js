@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from './online-store.png'
+import logo from './online-store.png';
+
 
 
 const Checkout = () => {
@@ -41,7 +42,6 @@ const Checkout = () => {
   const validatePayment = () => {
     return Object.values(payment).every((val) => val.trim() !== '');
   };
-  
 
   return (
      
@@ -52,8 +52,7 @@ const Checkout = () => {
     <img src={logo} className="App-logo" alt="logo" width={80} />
  
       <div className="checkout-section">
-        {step === 1 && 
-        (
+        {step === 1 && (
           <div>
             <h2>Adres dostawy</h2>
             <label htmlFor="name" className="labels">Imię i nazwisko:</label>
@@ -103,5 +102,4 @@ const Checkout = () => {
     </div>
   );
 };
-
 export default Checkout;

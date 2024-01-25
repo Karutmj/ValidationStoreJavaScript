@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body
+{
+  background-color: rgb(14, 13, 13);
+}
+.checkout-wrapper {
+  background-color: crimson;
+  border-radius: 2%;
+  border-color: #0d0e0d;
+
+  width: 80%;
+  color: white;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 30px;
+}
+.checkout-wrapper h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #0d0e0d;
+}
+.checkout-wrapper h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #0d0e0d;
+  
+}
+.inputField{
+  outline: none;
+  padding: 16px 22px;
+  border: 1px solid #0d0e0d ;
+  background-color: #0d0e0d;
+  font-size:18px;
+  color: white;
+  margin-left: 2%;
+  margin-top: 5px;
+  }
+.labels {
+  margin-left: 2%;
+  width: 200px;
+  display: inline-block;
+  color: #0d0e0d;
+}
+.title 
+{
+
+  display: flex;
+  align-items: center; /* Wyśrodkowanie w pionie */
+  margin-left: 30%;
+
+ }
+ .App-logo {
+  margin-left: 47%; /* Większy margines między obrazkiem a tekstem, dostosuj według potrzeb */
+}
+.gapdiv {
+  border: 2px solid crimson;
+  margin-top:1%;
+  margin-left: 2%;
+  width:100%;
+  margin-bottom:1%;
+}
+.checkout-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Dodatkowy margines na górze, dostosuj według potrzeb */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  padding: 20px 20px;
+  font-size: 20px;
+  width:10%;
+  cursor: pointer;
+  background-color: #0d0e0d; /* Kolor tła przycisku */
+  color: #fff; /* Kolor tekstu */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Płynne przejścia koloru tła */
+}
+
+button:hover {
+  background-color:rgb(255, 255, 255) ; /* Kolor tła po najechaniu myszką */
+  color:#0d0e0d;
+  width: 12%;
+}
+.AllInformation{
+  color: #0d0e0d;
+  
+}
+.AllInformation p {
+  background-color: #0d0e0d;
+  padding: 2%;
+  color: crimson;
+  font-size: 30px;
+  margin-top: 1px;
 }
